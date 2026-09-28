@@ -199,3 +199,7 @@ gsm@debian:~$ ls
 
 gsm@debian:~$ ls -lF /usr/bin/bash
 -rwxr-xr-x 1 root root 1298416 jul 12 13:58 /usr/bin/bash*
+
+gsm@debian:~$ ls -l /usr/bin/zsh
+-rwxr-xr-x 1 root root 882152 jul 13 13:33 /usr/bin/zsh
+gsm@debian:~$ 
