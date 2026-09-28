@@ -214,3 +214,15 @@ gsm@debian:~$ ps -l
 F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
 0 S  1000    5593    5587  0  80   0 -  3316 do_wai pts/0    00:00:00 bash
 4 R  1000    8943    5593  0  80   0 -  2417 -      pts/0    00:00:00 ps
+
+gsm@debian:~$ ps -f
+UID          PID    PPID  C STIME TTY          TIME CMD
+gsm         3134    3128  0 18:51 pts/0    00:00:00 bash
+gsm         6110    3134 99 19:57 pts/0    00:00:00 ps -f
+gsm@debian:~$ bash
+gsm@debian:~$ ps -f
+UID          PID    PPID  C STIME TTY          TIME CMD
+gsm         3134    3128  0 18:51 pts/0    00:00:00 bash
+gsm         6111    3134  0 19:57 pts/0    00:00:00 bash
+gsm         6259    6111 99 19:58 pts/0    00:00:00 ps -f
+gsm@debian:~$ 
