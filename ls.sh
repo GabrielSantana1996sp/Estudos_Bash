@@ -196,3 +196,6 @@ gsm@debian:~$ ls
  Downloads           Músicas              RustroverProjects
  eclipse             Público              venvs
  eclipse-workspace   PyCharmMiscProject   Vídeos
+
+gsm@debian:~$ ls -lF /usr/bin/bash
+-rwxr-xr-x 1 root root 1298416 jul 12 13:58 /usr/bin/bash*
