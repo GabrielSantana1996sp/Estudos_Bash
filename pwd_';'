@@ -1,0 +1,8 @@
+gsm@debian:~$ pwd ; ls Backup ; cd /etc ; cd ; pwd ;ls /home*
+/home/gsm
+backup  Estudos  LivrosEstudos
+/home/gsm
+gsm  lost+found
+gsm@debian:~$ 
+
+
